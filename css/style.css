@@ -13,18 +13,12 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
-    scroll-snap-type: y mandatory;
 }
 
 body {
     font-size: 16px;
     font-family: 'Krub', sans-serif;
     background-image: linear-gradient(to top, #DFE9F3 0%, var(--white) 100%);
-}
-
-.services, .navbar, .form {
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
 }
 
 .container {
@@ -182,6 +176,8 @@ body {
     border: none;
     padding: 1.5rem;
     border-radius: 0.5rem;
+    resize: none;
+    outline: none;
 }
 
 .camp textarea {
